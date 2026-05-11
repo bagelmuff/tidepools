@@ -1,0 +1,68 @@
+body {
+  font-family: "Patrick Hand", cursive;
+  background: linear-gradient( #fcf5e1, #d3eff2);
+  color: #4a2c5a;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+.title {
+	color: #5C6AC4;
+}
+img {
+  transition: transform 0.2s;
+}
+.image-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+.image-row img {
+  width: 250px;
+  margin: 0;
+}
+button {
+  background-color: #f5d4e8;
+  border-color: #301934;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button a {
+  color: #6a3a82;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pool {
+  background-image: url("https://uploads.onecompiler.io/44jjsc89r/44nwcvyjc/tidepooooool.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 250px;
+  position: relative;
+  margin: 20px 0;
+}
+.creature {
+  position: absolute;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
